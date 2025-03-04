@@ -74,8 +74,8 @@
 .header {
   margin-inline: auto;
   margin-block-end: 100px;
-  padding-block-start: clamp(130px, 9.15vw, 150px);
-  padding-block-end: 124px;
+  padding-block-start: 128px;
+  padding-block-end: 128px;
   width: var(--content-width);
   background-color: var(--background-color);
   border: var(--border);
@@ -451,7 +451,7 @@ dialog::backdrop {
 @media (width <= 375px) {
 
   .header {
-    padding-block-start: clamp(120px, 9.15vw, 150px);
+    padding-block-start: 120px;
     padding-block-end: 120px;
   }
 
