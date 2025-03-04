@@ -387,6 +387,7 @@ dialog::backdrop {
 }
 
 .dialog__button {
+  text-transform: uppercase;
   width: 293px;
   height: 38px;
 }
